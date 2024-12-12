@@ -1,5 +1,14 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
 # Compiled class file
+.idea
 *.class
+*.iml
 
 # Log file
 *.log
